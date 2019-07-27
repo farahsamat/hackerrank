@@ -12,5 +12,6 @@ def hourglassSum(arr):
             hourglasslist.append(sum(subhourglasslist))
     return max(hourglasslist)
 
+
 print(arr)
 print(hourglassSum(arr))
